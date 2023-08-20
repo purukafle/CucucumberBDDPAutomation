@@ -2,6 +2,10 @@ package runner;
 
 
 
+
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
@@ -25,9 +29,10 @@ import io.cucumber.junit.CucumberOptions;
 
 
 public class MortgageCalculatorRunner {
+	public static final Logger log=LogManager.getLogger(MortgageCalculatorRunner.class);
 
 	@AfterClass
 	public static void generateExtentReport() {
-		System.out.println("running...........");
+		log.info("running...........");
 	}
 }
