@@ -24,7 +24,9 @@ import io.cucumber.junit.CucumberOptions;
 				"junit:target/junitReports/junitReport.xml"					
 				
 		},
+		
 		dryRun=true
+		//tags="@SmokeTest" 
 		)
 
 

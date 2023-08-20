@@ -121,6 +121,10 @@ public class MortgageCalculatorSteps {
 		assertEquals(monthlyPaymentText, expectedAmount);
 	    
 	}
+	@Then("I closed the chrome browser")
+	public void i_closed_the_chrome_browser() {
+	   driver.quit();
+	}
 
 }
 

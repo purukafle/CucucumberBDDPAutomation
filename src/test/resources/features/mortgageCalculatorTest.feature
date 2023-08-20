@@ -11,3 +11,4 @@ Feature: Mortgage Calculator Test
     And I select interest type "Fixed"
     And I click clculate button
     Then I verify monthly payment results "$2663.31"
+    Then I closed the chrome browser
