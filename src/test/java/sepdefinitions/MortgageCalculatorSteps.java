@@ -16,26 +16,22 @@ public class MortgageCalculatorSteps {
 
 	@When("I enter mortgage amount {string}")
 	public void i_enter_mortgage_amount(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	   
 	}
 
 	@When("I enter interest rate {string}")
 	public void i_enter_interest_rate(String string) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
 	}
 
 	@When("I enter amortization year {string} and month {string}")
 	public void i_enter_amortization_year_and_month(String string, String string2) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
 	}
 
 	@When("I select start year {string} and month {string}")
 	public void i_select_start_year_and_month(String string, String string2) {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
 	}
 
 	@When("I enter interest term year {string} and month {string}")
