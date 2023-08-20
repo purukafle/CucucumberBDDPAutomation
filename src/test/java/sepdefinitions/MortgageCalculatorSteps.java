@@ -11,8 +11,7 @@ public class MortgageCalculatorSteps {
 	
 	@Given("I go to mortgag calculator website")
 	public void i_go_to_mortgag_calculator_website() {
-	    // Write code here that turns the phrase above into concrete actions
-	    throw new io.cucumber.java.PendingException();
+	    
 	}
 
 	@When("I enter mortgage amount {string}")
